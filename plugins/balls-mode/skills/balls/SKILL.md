@@ -1,7 +1,12 @@
 ---
 name: balls
-description: Decomposed reasoning with explicit confidence scoring
-trigger: /balls
+description: >
+  Breaks complex problems into numbered sub-questions, solves each independently,
+  assigns probability-based confidence scores (0.0-1.0) to conclusions, and
+  synthesizes a weighted final answer with uncertainty analysis.
+  Use when the user asks for step-by-step analysis, wants to understand how
+  certain a conclusion is, requests confidence levels, says "how sure are you",
+  or invokes /balls before a question.
 ---
 
 # Balls Mode - Decomposed Reasoning with Confidence Scoring
